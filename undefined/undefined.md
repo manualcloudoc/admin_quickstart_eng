@@ -1,31 +1,31 @@
-# 관리자 빠른 시작 가이드 – 문서중앙화 사용자 및 조직도 생성하기
+# Admin Quick Start Guide – Creating Document Centralization Users and Organization Chart
 
-관리자는 먼저 회사 내 모든 직원을 문서중앙화 사용자로 등록해야 합니다. 그 후, 아래 예시 그림과 같은 회사 조직도를 참고하여 부서 구조를 정의하고, 각 사용자에게 소속 부서를 지정하여 조직도를 완성해야 합니다.
+The administrator must first register all employees in the company as Document Centralization users. Then, referring to the company's Organization Chart as shown in the example below, define the department structure and assign each user to their respective department to complete the Organization Chart.
 
 <figure><img src="../.gitbook/assets/스크린샷 2026-08-12 162830.png" alt=""><figcaption></figcaption></figure>
 
-생성된 조직도는 다음과 같이 활용됩니다.
+The created Organization Chart is used as follows:
 
-* 부서문서함 폴더의 접근 권한을 조직도의 부서, 사용자, 직위별로 설정
-* 다양한 보안 정책을 조직도의 부서, 사용자 단위로 적용
-* 문서반출 등 승인이 필요한 요청에 대해 승인권자 지정
+* Setting access permissions for Department Document Drive folders by department, user, and position in the Organization Chart
+* Applying various security policies by department and user unit in the Organization Chart
+* Designating Approvers for requests requiring approval, such as Document Export
 
-#### 문서중앙화 사용자 및 부서 정보 등록하기 <a href="#undefined" id="undefined"></a>
+#### Registering Document Centralization Users and Department Information <a href="#undefined" id="undefined"></a>
 
-조직도를 처음 생성하기 위해서는 전체 사용자와 부서, 직위, 소속 정보를 정해진 형식의 데이터 파일에 입력하여 서버에 일괄 등록합니다. 등록 방법은 [**조직도 및 사용자 일괄 등록하기**](https://mcloudoc-manual.gitbook.io/cloudoc-admin-manual/basic/undefined-6)를 참고합니다.
+To create the Organization Chart for the first time, enter all users, departments, positions, and affiliation information in a data file in the specified format and register them in bulk on the server. For the registration method, refer to [**Registering Organization Chart and Users in Bulk**](https://mcloudoc-manual.gitbook.io/cloudoc-admin-manual/basic/undefined-6).
 
 {% hint style="warning" %}
-* **조직도 편집기**를 사용하여 사용자, 부서, 직위를 개별적으로 추가하고, 소속 부서를 지정할 수도 있습니다. 조직도 편집기의 사용 방법은 [**조직도 편집기 소개**](https://mcloudoc-manual.gitbook.io/cloudoc-admin-manual/basic/undefined-7/undefined)를 참고합니다.
-* 사용자의 추가·등록은 관리자 웹페이지의 **사용자 관리** 메뉴에서도 가능합니다.
-* 이 외에도 고객사의 DB나 AD(Active Directory)와의 연동을 통해 사용자를 등록하고 조직도를 구성할 수 있습니다. 단, 이 기능은 기본 제공 범위에 포함되지 않으며, 고객사 환경에 맞춘 별도의 연동 기능 개발이 필요합니다.
+* You can also use the **Organization Chart Editor** to add users, departments, and positions individually, and assign them to their respective departments. For instructions on using the Organization Chart Editor, refer to [**Introduction to the Organization Chart Editor**](https://mcloudoc-manual.gitbook.io/cloudoc-admin-manual/basic/undefined-7/undefined).
+* Adding and registering users is also available from the **User management** menu on the admin webpage.
+* In addition, users can be registered and the Organization Chart can be configured through integration with the customer company's DB or AD (Active Directory). However, this feature is not included in the standard scope and requires separate integration development tailored to the customer company's environment.
 {% endhint %}
 
 
 
-#### 팀문서관리자/팀장 지정하기 <a href="#undefined-1" id="undefined-1"></a>
+#### Designating Team Document Manager/Team Manager <a href="#undefined-1" id="undefined-1"></a>
 
-조직도를 등록한 후에는 조직도 편집기에서 부서별로 팀문서관리자를 지정해야 합니다. 팀문서관리자는 문서반출, 문서링크 복사 등 보안상 결재가 필요한 요청을 승인 또는 반려할 권한을 가지며, 팀문서관리자 중 한 명을 팀장으로 지정할 수 있습니다.
+After registering the Organization Chart, you must designate a Team Document Manager for each department in the Organization Chart Editor. The Team Document Manager has the authority to approve or reject requests that require security approval, such as Document Export and Copy Document Link, and one of the Team Document Managers can be designated as a Team Manager.
 
-승인이 필요한 작업을 신청할 때, 사용자는 직속 부서나 상위 부서의 팀문서관리자/팀장 중에서 승인권자를 선택할 수 있습니다. 예를 들어, 위의 조직도 상에서 홍길동 사용자는 **국내영업팀, 영업본부, 우리 회사**의 팀문서관리자/팀장 중 승인권자를 선택할 수 있습니다. 만약 어느 부서에도 팀문서관리자나 팀장이 없는 경우, 해당 작업을 신청할 수 없습니다.
+When submitting a request for an action that requires approval, users can select an Approver from among the Team Document Managers/Team Managers of their direct department or parent departments. For example, in the Organization Chart above, the user Hong Gil-dong can select an Approver from among the Team Document Managers/Team Managers of the **국내영업팀, 영업본부, and Our Company**. If no Team Document Manager or Team Manager exists in any department, the action cannot be submitted.
 
-팀문서관리자를 지정하는 방법은 [**팀장 및 팀문서관리자 지정하기**](https://mcloudoc-manual.gitbook.io/cloudoc-admin-manual/basic/undefined-7/undefined-5)를 참고합니다.
+For instructions on designating Team Document Managers, refer to [**Designating Team Manager and Team Document Manager**](https://mcloudoc-manual.gitbook.io/cloudoc-admin-manual/basic/undefined-7/undefined-5).

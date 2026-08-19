@@ -1,16 +1,17 @@
-# 관리자 빠른 시작 가이드
+# Admin Quick Start Guide
 
-문서중앙화 서비스를 시작하기 위해서는 관리자가 먼저 사용자 계정과 조직도, 문서함을 생성하고 PC 보안 정책을 적용하는 등 다양한 사전 작업을 수행해야 합니다.
+To get started with the Document Centralization service, the administrator must first perform various preparatory tasks, such as creating user accounts and the Organization Chart, setting up Document Drives, and applying PC security policies.
 
-### <mark style="color:$warning;">문서중앙화 서비스 준비하기</mark>
+### <mark style="color:$warning;">Preparing the Document Centralization Service</mark>
 
-먼저 문서중앙화 웹페이지에 접속하여 **서비스관리자** 또는 **정보보호관리자** 계정으로 로그인 합니다. 이후 아래의 작업을 단계별로 진행합니다.
+First, access the Document Centralization webpage and log in with the **Service Administrator** or **Security Administrator** account. Then proceed with the tasks below step by step.
 
-#### <mark style="color:$primary;">Step 1. 조직도 생성하기</mark>
+#### <mark style="color:$primary;">Step 1. Creating the Organization Chart</mark>
 
-[**관리자 빠른 시작 가이드 – 문서중앙화 사용자 및 조직도 생성하기**](undefined/undefined.md)의 가이드를 따라 조직도를 생성합니다.
+Follow the guide in [**Admin Quick Start Guide – Creating Document Centralization Users and Organization Chart**](undefined/undefined.md) to create the Organization Chart.
 
-#### <mark style="color:$primary;">Step 2. 부서문서함 구성하기</mark>
+#### <mark style="color:$primary;">Step 2. Configuring the Department Document Drive</mark>
 
-[**관리자 빠른 시작 가이드 – 부서문서함 구성하기**](undefined/undefined-1.md)의 가이드를 따라 부서문서함과 하위 폴더를 생성하고 폴더별로 권한을 설정합니다.
+Follow the guide in [**Admin Quick Start Guide – Configuring the Department Document Drive**](undefined/undefined-1.md) to create the Department Document Drive and its sub-folders, and configure permissions for each folder.
+
 
